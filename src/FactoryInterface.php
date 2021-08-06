@@ -1,5 +1,5 @@
 <?php
-namespace factory;
+namespace src;
 
 interface FactoryInterface
 {

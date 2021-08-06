@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace factory;
+namespace src;
 use Exception;
-use factory\FactoryInterface;
+use src\FactoryInterface;
 
 Class Factory implements FactoryInterface
 {
