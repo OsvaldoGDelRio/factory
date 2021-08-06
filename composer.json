@@ -1,0 +1,12 @@
+{
+    "name": "osvaldogdelrio/factory",
+    "description": "Clase para crear otros objetos/clases con el patr\u0000n Factory",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "factory\\": "factory/"
+        }
+    },
+    "require": {}
+}
