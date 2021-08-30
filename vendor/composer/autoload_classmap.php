@@ -1084,6 +1084,7 @@ return array(
     'src\\Factory' => $baseDir . '/src/Factory.php',
     'src\\FactoryClassInterface' => $baseDir . '/src/FactoryClassInterface.php',
     'src\\FactoryInterface' => $baseDir . '/src/FactoryInterface.php',
+    'test\\CrearDummy' => $baseDir . '/test/CrearDummy.php',
     'test\\Dummy' => $baseDir . '/test/Dummy.php',
     'test\\FactoryTest' => $baseDir . '/test/FactoryTest.php',
 );

@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '07d383d3ca6d434ec03e69ac304c5d0845e55c9e',
+        'reference' => '44ad796bc66a05e2931d230cb73b19d6526c4c44',
         'name' => 'osvaldogdelrio/factory',
         'dev' => true,
     ),
@@ -46,7 +46,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '07d383d3ca6d434ec03e69ac304c5d0845e55c9e',
+            'reference' => '44ad796bc66a05e2931d230cb73b19d6526c4c44',
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
