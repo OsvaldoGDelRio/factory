@@ -3,5 +3,5 @@ namespace src;
 
 interface FactoryInterface
 {
-    public function crear(string $nombreDeLaClase, array $parametros): object;
+    public function crear(string $nombreDeLaClase, ?array $parametros = array()): object;
 }

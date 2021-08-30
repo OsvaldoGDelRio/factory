@@ -8,7 +8,7 @@ Class Factory implements FactoryInterface
 {
     private $_clase;
 
-    public function crear(string $nombreDeLaClase, array $parametros): object
+    public function crear(string $nombreDeLaClase, ?array $parametros = array()): object
     {
         $this->_clase = $this->verificarSiExisteLaClase($nombreDeLaClase);
 
