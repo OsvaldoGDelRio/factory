@@ -2,15 +2,17 @@
 declare(strict_types=1);
 namespace test;
 
-use src\Factory;
-use Exception;
 use \PHPUnit\Framework\TestCase;
+use Exception;
+use src\Factory;
+use test\CrearDummy;
 
 class FactoryTest extends TestCase
 {
     public function setUp(): void
     {
         $this->class = new Factory();
+        $this->crearDummy = new CrearDummy;
     }
 
     public function testSiLaClaseNoExisteSeEsperaUnaExcepcion()
@@ -19,8 +21,13 @@ class FactoryTest extends TestCase
         $this->class->crear('Hola', array('hola'));
     }
 
-    public function testLaClaseDevuelveUnObjeto()
+    public function testSiLaClaseExisteYDevuelveUnObjeto()
     {
         $this->assertIsObject($this->class->crear('test\Dummy', array() ) );
+    }
+
+    public function testSiRegresaUnaClaseEsConsideradaUnObjeto()
+    {
+        $this->assertIsObject( $this->crearDummy->crear(array() ) );
     }
 }
