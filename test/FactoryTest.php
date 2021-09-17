@@ -23,11 +23,11 @@ class FactoryTest extends TestCase
 
     public function testSiLaClaseExisteYDevuelveUnObjeto()
     {
-        $this->assertIsObject($this->class->crear('test\Dummy', array() ) );
+        $this->assertIsObject($this->class->crear('test\Dummy', array()));
     }
 
     public function testSiRegresaUnaClaseEsConsideradaUnObjeto()
     {
-        $this->assertIsObject( $this->crearDummy->crear(array() ) );
+        $this->assertIsObject($this->crearDummy->crear(array()));
     }
 }
