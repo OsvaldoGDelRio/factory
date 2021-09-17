@@ -19,9 +19,6 @@ class Factory implements FactoryInterface
         return $this->_clase->crear($parametros);
     }
     
-    /**
-     * @return class-string
-     */
     private function verificarSiExisteLaClase(string $nombreDeLaClase): string
     {
         if (!class_exists($nombreDeLaClase)) {
