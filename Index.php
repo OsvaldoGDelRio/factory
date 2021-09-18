@@ -15,7 +15,7 @@ use src\Factory;
 
 $factory = new Factory;
 
-$dummy = $factory->crear('test\CrearDummy');
+$dummy = $factory->crear('tests\CrearDummy');
 
 print_r($dummy->llamandoUnMetodo());
 

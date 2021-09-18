@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
-namespace test;
+namespace tests;
 
 use \PHPUnit\Framework\TestCase;
 use Exception;
 use src\Factory;
-use test\CrearDummy;
+use tests\CrearDummy;
 
 class FactoryTest extends TestCase
 {
@@ -23,7 +23,7 @@ class FactoryTest extends TestCase
 
     public function testSiLaClaseExisteYDevuelveUnObjeto()
     {
-        $this->assertIsObject($this->class->crear('test\Dummy', array()));
+        $this->assertIsObject($this->class->crear('tests\Dummy', array()));
     }
 
     public function testSiRegresaUnaClaseEsConsideradaUnObjeto()

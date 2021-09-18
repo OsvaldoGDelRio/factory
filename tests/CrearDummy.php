@@ -1,9 +1,9 @@
 <?php
-namespace test;
+namespace tests;
 
 use src\FactoryClassInterface;
 
-use test\Dummy;
+use tests\Dummy;
 
 class CrearDummy implements FactoryClassInterface
 {

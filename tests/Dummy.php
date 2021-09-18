@@ -1,5 +1,5 @@
 <?php
-namespace test;
+namespace tests;
 
 class Dummy
 {
